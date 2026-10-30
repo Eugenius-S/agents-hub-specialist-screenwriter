@@ -1,0 +1,30 @@
+{
+  "name": "screenwriter",
+  "kind": "specialist",
+  "version": "0.1.12",
+  "hub": "^1",
+  "icon": "📜",
+  "description": "Screenwriter: video ideas, scripts and voice-over, a scene-by-scene brief for the editor. For a video, idea, hook or voice-over hand it a task: hub task new screenwriter --for-session <you> \"<video, product, platform, duration, materials, owner's words>\"",
+  "why": "A ready screenwriter instead of building your own: ideas in two paragraphs, a benefit hook, only real product screens, voice-over without signs of AI with timing by word count, a scene-by-scene brief for the editor, lessons learned with quotes, check cases",
+  "agent": {
+    "cwd": "~/screenwriter",
+    "tools": {
+      "need": [],
+      "optional": [
+        {
+          "id": "humanizer",
+          "why": "scrub signs of AI from voice-over (English)"
+        },
+        {
+          "id": "ru-text",
+          "why": "editing of Russian voice-over"
+        },
+        {
+          "id": "parallel-search",
+          "why": "research of references, formats and facts about the product"
+        }
+      ]
+    },
+    "cases": "evals/cases.md"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hub-specialist-screenwriter",
+  "owner": {
+    "name": "Agents Hub"
+  },
+  "plugins": [
+    {
+      "name": "screenwriter",
+      "source": "./plugins/screenwriter",
+      "description": "Screenwriter skills for the hub: ideas, scripts and voice-over for videos, and a brief for the editor.",
+      "version": "0.1.12"
+    }
+  ]
+}
